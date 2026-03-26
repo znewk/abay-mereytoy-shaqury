@@ -9,7 +9,8 @@ import RevealOnScroll from "@/components/ui/RevealOnScroll";
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen overflow-x-hidden">
+    // <main className="relative min-h-screen overflow-x-hidden">
+    <div>
       <LoadingScreen />
       <div className="side-ornaments" />
       <div className="kazakh-bg-pattern" />
@@ -36,6 +37,8 @@ export default function HomePage() {
           <RsvpSection />
         </RevealOnScroll>
       </div>
-    </main>
+    </div>
+
+    // </main>
   );
 }
